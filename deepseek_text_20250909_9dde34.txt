@@ -1,0 +1,12 @@
+ai-autocorrect-tool/
+├── app.py                 # Main Flask application
+├── word_frequencies.csv   # Dataset of words and their frequencies
+├── requirements.txt       # Python dependencies
+├── utils/
+│   └── autocorrect.py     # Core autocorrect algorithm
+├── templates/
+│   └── index.html         # Frontend HTML with Tailwind CSS
+├── static/
+│   ├── style.css          # Additional CSS styles
+│   └── chart.png          # Generated word frequency chart
+└── README.md              # This file
